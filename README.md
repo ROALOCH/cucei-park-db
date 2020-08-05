@@ -36,4 +36,4 @@ Para configurar el API, se necesita generar una llave en [SendGrid](https://send
 
 ### Licencia
 
-[MIT](https://github.com/ROALOCH/analizador-imagenes-algoritmia/blob/master/LICENSE)
+[MIT](https://github.com/ROALOCH/parkDB/blob/master/LICENSE)

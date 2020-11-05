@@ -1,4 +1,4 @@
-# parkDB
+# Proyecto Final: parkDB
 
 Ochoa Herrera Rodrigo Alejandro  
 CUCEI | Universidad de Guadalajara  

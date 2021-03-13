@@ -1,7 +1,7 @@
 
 
--- SCRIPT SQL v3.1 - parkDB
--- ACTUALIZADO: 25 ABRIL 2020
+-- SCRIPT SQL v3.1.1 - parkDB
+-- ACTUALIZADO: 12 MARZO 2021
 
 CREATE TABLE vehiculos
 (
@@ -52,3 +52,8 @@ CREATE TABLE trabajan_en
     id_estacionamiento SERIAL REFERENCES estacionamientos (id_estacionamiento) ON DELETE CASCADE,
     usuario VARCHAR(20) REFERENCES usuarios (usuario) ON UPDATE CASCADE ON DELETE CASCADE
 );
+
+
+INSERT INTO usuarios VALUES ('user', 'pass', 'John', 'Doe', 'john@mail.com', 'GERENTE', 15000, true, '');
+INSERT INTO estacionamientos VALUES (DEFAULT, 'MULBAR', 'Calle Francisco I. Madero 188, Zona Centro, 44100 Guadalajara, Jal', '3334067600', 5, 0, 20, 17);
+INSERT INTO trabajan_en VALUES (1, 'user');

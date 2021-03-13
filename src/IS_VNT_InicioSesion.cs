@@ -169,10 +169,13 @@ namespace parkDB
             conexionBD.Open();
             DbDataReader lectorSQL = conexionBD.Query($"SELECT * FROM estacionamientos INNER JOIN trabajan_en ON estacionamientos.id_estacionamiento = trabajan_en.id_estacionamiento AND trabajan_en.usuario = '{idUsuario}';");
 
+            
             if (!lectorSQL.HasRows)
             {
+                conexionBD.Close();
                 return;
             }
+          
 
             lectorSQL.Read();
             estacionamiento.ID = lectorSQL.GetInt16(0).ToString();

@@ -23,8 +23,9 @@ namespace parkDB
                 ConexionBD conexionBD = new ConexionBD();
                 conexionBD.Test();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString());
                 MessageBox.Show("NO SE PUDO CONECTAR CON LA BASE DE DATOS\nIMPOSIBLE EJECUTAR EL PROGRAMA", "ERROR DE CONEXIÓN", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }

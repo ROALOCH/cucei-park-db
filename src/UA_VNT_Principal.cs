@@ -24,6 +24,7 @@ namespace parkDB
 
         private void Sincronizar()
         {
+
             UA_CUS_Inicio.ConexionBD = conexionBD;
             UA_CUS_Inicio.Estacionamiento = estacionamiento;
             UA_CUS_Inicio.SincronizarControl();

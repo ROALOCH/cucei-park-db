@@ -38,6 +38,7 @@ namespace parkDB
 
             if (!lectorSQL.HasRows)
             {
+                ConexionBD.Close();
                 return;
             }
 

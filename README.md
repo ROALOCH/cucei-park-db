@@ -1,9 +1,4 @@
-> **⚠️ ADVERTENCIA ⚠️**  
-> Este proyecto no se encuentra terminado, el release no corresponde a la versión final del software. La documentación y algunas funcionalidades descritas en el README pueden variar o no estar contenidas. **Moraleja**: Siempre suban su último commit al repositorio 😢
-> <br>
-
-<hr>
-<br>
+> _El software/código no se encuentra en su versión final, características importantes no se encuentran alojadas en el repositorio. El proyecto actualmente no es mantenido_
 
 # Proyecto Final: parkDB
 
